@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (preveliki za GitHub)
+data/shp/*.shp
+data/shp/*.shx
+data/shp/*.dbf
+data/shp/*.prj
+data/shp/*.cpg
+data/raster/*.tif
+data/raster/*.tiff
+
+# Outputs (opciono - možeš da ostaviš)
+# outputs/*.html
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
