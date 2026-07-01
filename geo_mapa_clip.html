@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fe12089dd061880d65af44069ec43009 {
+                #map_cf6046cc10b9d2e95b42a6eb81c33400 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_fe12089dd061880d65af44069ec43009" ></div>
+            <div class="folium-map" id="map_cf6046cc10b9d2e95b42a6eb81c33400" ></div>
         
 </body>
 <script>
     
     
-            var map_fe12089dd061880d65af44069ec43009 = L.map(
-                "map_fe12089dd061880d65af44069ec43009",
+            var map_cf6046cc10b9d2e95b42a6eb81c33400 = L.map(
+                "map_cf6046cc10b9d2e95b42a6eb81c33400",
                 {
                     center: [43.2, 22.5],
                     crs: L.CRS.EPSG3857,
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_bfe578bc5f4fc9f1f407e0539e084034 = L.tileLayer(
+            var tile_layer_f850f87c444d8975844941873b85e8fb = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,121 +95,121 @@
             );
         
     
-            tile_layer_bfe578bc5f4fc9f1f407e0539e084034.addTo(map_fe12089dd061880d65af44069ec43009);
+            tile_layer_f850f87c444d8975844941873b85e8fb.addTo(map_cf6046cc10b9d2e95b42a6eb81c33400);
         
     
-        function geo_json_803583209fd43877b8116491da639c6c_styler(feature) {
+        function geo_json_d75371dd508934977f6cc75aec51a10f_styler(feature) {
             switch(feature.id) {
                 default:
                     return {"color": "blue", "fillColor": "lightblue", "fillOpacity": 0.1, "weight": 2};
             }
         }
 
-        function geo_json_803583209fd43877b8116491da639c6c_onEachFeature(feature, layer) {
+        function geo_json_d75371dd508934977f6cc75aec51a10f_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_803583209fd43877b8116491da639c6c = L.geoJson(null, {
-                onEachFeature: geo_json_803583209fd43877b8116491da639c6c_onEachFeature,
+        var geo_json_d75371dd508934977f6cc75aec51a10f = L.geoJson(null, {
+                onEachFeature: geo_json_d75371dd508934977f6cc75aec51a10f_onEachFeature,
             
-                style: geo_json_803583209fd43877b8116491da639c6c_styler,
+                style: geo_json_d75371dd508934977f6cc75aec51a10f_styler,
             ...{
 }
         });
 
-        function geo_json_803583209fd43877b8116491da639c6c_add (data) {
-            geo_json_803583209fd43877b8116491da639c6c
+        function geo_json_d75371dd508934977f6cc75aec51a10f_add (data) {
+            geo_json_d75371dd508934977f6cc75aec51a10f
                 .addData(data);
         }
-            geo_json_803583209fd43877b8116491da639c6c_add({"bbox": [22.1, 42.92, 22.88, 44.0], "features": [{"bbox": [22.45, 43.05, 22.75, 43.25], "geometry": {"coordinates": [[[[22.45, 43.05], [22.75, 43.05], [22.75, 43.25], [22.45, 43.25], [22.45, 43.05]]]], "type": "MultiPolygon"}, "id": "0", "properties": {"broj_stanovnika": 56700, "id": 1, "naziv": "Pirot", "povrsina_km2": 1232.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.45 43.05,22.75 43.05,22.75 43.25,22.45 43.25,22.45 43.05)))"}, "type": "Feature"}, {"bbox": [22.3, 43.02, 22.55, 43.22], "geometry": {"coordinates": [[[[22.3, 43.02], [22.55, 43.02], [22.55, 43.22], [22.3, 43.22], [22.3, 43.02]]]], "type": "MultiPolygon"}, "id": "1", "properties": {"broj_stanovnika": 9800, "id": 2, "naziv": "Babu\u0161nica", "povrsina_km2": 524.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.3 43.02,22.55 43.02,22.55 43.22,22.3 43.22,22.3 43.02)))"}, "type": "Feature"}, {"bbox": [22.62, 42.92, 22.88, 43.12], "geometry": {"coordinates": [[[[22.62, 42.92], [22.88, 42.92], [22.88, 43.12], [22.62, 43.12], [22.62, 42.92]]]], "type": "MultiPolygon"}, "id": "2", "properties": {"broj_stanovnika": 8300, "id": 3, "naziv": "Dimitrovgrad", "povrsina_km2": 480.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.62 42.92,22.88 42.92,22.88 43.12,22.62 43.12,22.62 42.92)))"}, "type": "Feature"}, {"bbox": [22.1, 43.42, 22.45, 43.67], "geometry": {"coordinates": [[[[22.1, 43.42], [22.45, 43.42], [22.45, 43.67], [22.1, 43.67], [22.1, 43.42]]]], "type": "MultiPolygon"}, "id": "3", "properties": {"broj_stanovnika": 28400, "id": 4, "naziv": "Knja\u017eevac", "povrsina_km2": 1202.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.1 43.42,22.45 43.42,22.45 43.67,22.1 43.67,22.1 43.42)))"}, "type": "Feature"}, {"bbox": [22.13, 43.78, 22.45, 44.0], "geometry": {"coordinates": [[[[22.13, 43.78], [22.45, 43.78], [22.45, 44.0], [22.13, 44.0], [22.13, 43.78]]]], "type": "MultiPolygon"}, "id": "4", "properties": {"broj_stanovnika": 50700, "id": 5, "naziv": "Zaje\u010dar", "povrsina_km2": 1059.0, "region": "Timo\u010dka regija", "wkt": "MULTIPOLYGON(((22.13 43.78,22.45 43.78,22.45 44,22.13 44,22.13 43.78)))"}, "type": "Feature"}, {"bbox": [22.45, 43.05, 22.75, 43.25], "geometry": {"coordinates": [[[[22.45, 43.05], [22.75, 43.05], [22.75, 43.25], [22.45, 43.25], [22.45, 43.05]]]], "type": "MultiPolygon"}, "id": "5", "properties": {"broj_stanovnika": 56700, "id": 6, "naziv": "Pirot", "povrsina_km2": 1232.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.45 43.05,22.75 43.05,22.75 43.25,22.45 43.25,22.45 43.05)))"}, "type": "Feature"}, {"bbox": [22.3, 43.02, 22.55, 43.22], "geometry": {"coordinates": [[[[22.3, 43.02], [22.55, 43.02], [22.55, 43.22], [22.3, 43.22], [22.3, 43.02]]]], "type": "MultiPolygon"}, "id": "6", "properties": {"broj_stanovnika": 9800, "id": 7, "naziv": "Babu\u0161nica", "povrsina_km2": 524.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.3 43.02,22.55 43.02,22.55 43.22,22.3 43.22,22.3 43.02)))"}, "type": "Feature"}, {"bbox": [22.62, 42.92, 22.88, 43.12], "geometry": {"coordinates": [[[[22.62, 42.92], [22.88, 42.92], [22.88, 43.12], [22.62, 43.12], [22.62, 42.92]]]], "type": "MultiPolygon"}, "id": "7", "properties": {"broj_stanovnika": 8300, "id": 8, "naziv": "Dimitrovgrad", "povrsina_km2": 480.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.62 42.92,22.88 42.92,22.88 43.12,22.62 43.12,22.62 42.92)))"}, "type": "Feature"}, {"bbox": [22.1, 43.42, 22.45, 43.67], "geometry": {"coordinates": [[[[22.1, 43.42], [22.45, 43.42], [22.45, 43.67], [22.1, 43.67], [22.1, 43.42]]]], "type": "MultiPolygon"}, "id": "8", "properties": {"broj_stanovnika": 28400, "id": 9, "naziv": "Knja\u017eevac", "povrsina_km2": 1202.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.1 43.42,22.45 43.42,22.45 43.67,22.1 43.67,22.1 43.42)))"}, "type": "Feature"}, {"bbox": [22.13, 43.78, 22.45, 44.0], "geometry": {"coordinates": [[[[22.13, 43.78], [22.45, 43.78], [22.45, 44.0], [22.13, 44.0], [22.13, 43.78]]]], "type": "MultiPolygon"}, "id": "9", "properties": {"broj_stanovnika": 50700, "id": 10, "naziv": "Zaje\u010dar", "povrsina_km2": 1059.0, "region": "Timo\u010dka regija", "wkt": "MULTIPOLYGON(((22.13 43.78,22.45 43.78,22.45 44,22.13 44,22.13 43.78)))"}, "type": "Feature"}, {"bbox": [22.45, 43.05, 22.75, 43.25], "geometry": {"coordinates": [[[[22.45, 43.05], [22.75, 43.05], [22.75, 43.25], [22.45, 43.25], [22.45, 43.05]]]], "type": "MultiPolygon"}, "id": "10", "properties": {"broj_stanovnika": 56700, "id": 11, "naziv": "Pirot", "povrsina_km2": 1232.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.45 43.05,22.75 43.05,22.75 43.25,22.45 43.25,22.45 43.05)))"}, "type": "Feature"}, {"bbox": [22.3, 43.02, 22.55, 43.22], "geometry": {"coordinates": [[[[22.3, 43.02], [22.55, 43.02], [22.55, 43.22], [22.3, 43.22], [22.3, 43.02]]]], "type": "MultiPolygon"}, "id": "11", "properties": {"broj_stanovnika": 9800, "id": 12, "naziv": "Babu\u0161nica", "povrsina_km2": 524.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.3 43.02,22.55 43.02,22.55 43.22,22.3 43.22,22.3 43.02)))"}, "type": "Feature"}, {"bbox": [22.62, 42.92, 22.88, 43.12], "geometry": {"coordinates": [[[[22.62, 42.92], [22.88, 42.92], [22.88, 43.12], [22.62, 43.12], [22.62, 42.92]]]], "type": "MultiPolygon"}, "id": "12", "properties": {"broj_stanovnika": 8300, "id": 13, "naziv": "Dimitrovgrad", "povrsina_km2": 480.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.62 42.92,22.88 42.92,22.88 43.12,22.62 43.12,22.62 42.92)))"}, "type": "Feature"}, {"bbox": [22.1, 43.42, 22.45, 43.67], "geometry": {"coordinates": [[[[22.1, 43.42], [22.45, 43.42], [22.45, 43.67], [22.1, 43.67], [22.1, 43.42]]]], "type": "MultiPolygon"}, "id": "13", "properties": {"broj_stanovnika": 28400, "id": 14, "naziv": "Knja\u017eevac", "povrsina_km2": 1202.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.1 43.42,22.45 43.42,22.45 43.67,22.1 43.67,22.1 43.42)))"}, "type": "Feature"}, {"bbox": [22.13, 43.78, 22.45, 44.0], "geometry": {"coordinates": [[[[22.13, 43.78], [22.45, 43.78], [22.45, 44.0], [22.13, 44.0], [22.13, 43.78]]]], "type": "MultiPolygon"}, "id": "14", "properties": {"broj_stanovnika": 50700, "id": 15, "naziv": "Zaje\u010dar", "povrsina_km2": 1059.0, "region": "Timo\u010dka regija", "wkt": "MULTIPOLYGON(((22.13 43.78,22.45 43.78,22.45 44,22.13 44,22.13 43.78)))"}, "type": "Feature"}, {"bbox": [22.45, 43.05, 22.75, 43.25], "geometry": {"coordinates": [[[[22.45, 43.05], [22.75, 43.05], [22.75, 43.25], [22.45, 43.25], [22.45, 43.05]]]], "type": "MultiPolygon"}, "id": "15", "properties": {"broj_stanovnika": 56700, "id": 16, "naziv": "Pirot", "povrsina_km2": 1232.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.45 43.05,22.75 43.05,22.75 43.25,22.45 43.25,22.45 43.05)))"}, "type": "Feature"}, {"bbox": [22.3, 43.02, 22.55, 43.22], "geometry": {"coordinates": [[[[22.3, 43.02], [22.55, 43.02], [22.55, 43.22], [22.3, 43.22], [22.3, 43.02]]]], "type": "MultiPolygon"}, "id": "16", "properties": {"broj_stanovnika": 9800, "id": 17, "naziv": "Babu\u0161nica", "povrsina_km2": 524.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.3 43.02,22.55 43.02,22.55 43.22,22.3 43.22,22.3 43.02)))"}, "type": "Feature"}, {"bbox": [22.62, 42.92, 22.88, 43.12], "geometry": {"coordinates": [[[[22.62, 42.92], [22.88, 42.92], [22.88, 43.12], [22.62, 43.12], [22.62, 42.92]]]], "type": "MultiPolygon"}, "id": "17", "properties": {"broj_stanovnika": 8300, "id": 18, "naziv": "Dimitrovgrad", "povrsina_km2": 480.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.62 42.92,22.88 42.92,22.88 43.12,22.62 43.12,22.62 42.92)))"}, "type": "Feature"}, {"bbox": [22.1, 43.42, 22.45, 43.67], "geometry": {"coordinates": [[[[22.1, 43.42], [22.45, 43.42], [22.45, 43.67], [22.1, 43.67], [22.1, 43.42]]]], "type": "MultiPolygon"}, "id": "18", "properties": {"broj_stanovnika": 28400, "id": 19, "naziv": "Knja\u017eevac", "povrsina_km2": 1202.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.1 43.42,22.45 43.42,22.45 43.67,22.1 43.67,22.1 43.42)))"}, "type": "Feature"}, {"bbox": [22.13, 43.78, 22.45, 44.0], "geometry": {"coordinates": [[[[22.13, 43.78], [22.45, 43.78], [22.45, 44.0], [22.13, 44.0], [22.13, 43.78]]]], "type": "MultiPolygon"}, "id": "19", "properties": {"broj_stanovnika": 50700, "id": 20, "naziv": "Zaje\u010dar", "povrsina_km2": 1059.0, "region": "Timo\u010dka regija", "wkt": "MULTIPOLYGON(((22.13 43.78,22.45 43.78,22.45 44,22.13 44,22.13 43.78)))"}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_d75371dd508934977f6cc75aec51a10f_add({"bbox": [22.1, 42.92, 22.88, 44.0], "features": [{"bbox": [22.45, 43.05, 22.75, 43.25], "geometry": {"coordinates": [[[[22.45, 43.05], [22.75, 43.05], [22.75, 43.25], [22.45, 43.25], [22.45, 43.05]]]], "type": "MultiPolygon"}, "id": "0", "properties": {"broj_stanovnika": 56700, "id": 1, "naziv": "Pirot", "povrsina_km2": 1232.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.45 43.05,22.75 43.05,22.75 43.25,22.45 43.25,22.45 43.05)))"}, "type": "Feature"}, {"bbox": [22.3, 43.02, 22.55, 43.22], "geometry": {"coordinates": [[[[22.3, 43.02], [22.55, 43.02], [22.55, 43.22], [22.3, 43.22], [22.3, 43.02]]]], "type": "MultiPolygon"}, "id": "1", "properties": {"broj_stanovnika": 9800, "id": 2, "naziv": "Babu\u0161nica", "povrsina_km2": 524.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.3 43.02,22.55 43.02,22.55 43.22,22.3 43.22,22.3 43.02)))"}, "type": "Feature"}, {"bbox": [22.62, 42.92, 22.88, 43.12], "geometry": {"coordinates": [[[[22.62, 42.92], [22.88, 42.92], [22.88, 43.12], [22.62, 43.12], [22.62, 42.92]]]], "type": "MultiPolygon"}, "id": "2", "properties": {"broj_stanovnika": 8300, "id": 3, "naziv": "Dimitrovgrad", "povrsina_km2": 480.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.62 42.92,22.88 42.92,22.88 43.12,22.62 43.12,22.62 42.92)))"}, "type": "Feature"}, {"bbox": [22.1, 43.42, 22.45, 43.67], "geometry": {"coordinates": [[[[22.1, 43.42], [22.45, 43.42], [22.45, 43.67], [22.1, 43.67], [22.1, 43.42]]]], "type": "MultiPolygon"}, "id": "3", "properties": {"broj_stanovnika": 28400, "id": 4, "naziv": "Knja\u017eevac", "povrsina_km2": 1202.0, "region": "Stara planina", "wkt": "MULTIPOLYGON(((22.1 43.42,22.45 43.42,22.45 43.67,22.1 43.67,22.1 43.42)))"}, "type": "Feature"}, {"bbox": [22.13, 43.78, 22.45, 44.0], "geometry": {"coordinates": [[[[22.13, 43.78], [22.45, 43.78], [22.45, 44.0], [22.13, 44.0], [22.13, 43.78]]]], "type": "MultiPolygon"}, "id": "4", "properties": {"broj_stanovnika": 50700, "id": 5, "naziv": "Zaje\u010dar", "povrsina_km2": 1059.0, "region": "Timo\u010dka regija", "wkt": "MULTIPOLYGON(((22.13 43.78,22.45 43.78,22.45 44,22.13 44,22.13 43.78)))"}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            geo_json_803583209fd43877b8116491da639c6c.addTo(map_fe12089dd061880d65af44069ec43009);
+            geo_json_d75371dd508934977f6cc75aec51a10f.addTo(map_cf6046cc10b9d2e95b42a6eb81c33400);
         
     
-        function geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_styler(feature) {
+        function geo_json_a0f49971fce184f9cfa1256380a008e8_styler(feature) {
             switch(feature.id) {
                 default:
                     return {"color": "darkred", "fillColor": "red", "fillOpacity": 0.3, "weight": 1};
             }
         }
 
-        function geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_onEachFeature(feature, layer) {
+        function geo_json_a0f49971fce184f9cfa1256380a008e8_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5 = L.geoJson(null, {
-                onEachFeature: geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_onEachFeature,
+        var geo_json_a0f49971fce184f9cfa1256380a008e8 = L.geoJson(null, {
+                onEachFeature: geo_json_a0f49971fce184f9cfa1256380a008e8_onEachFeature,
             
-                style: geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_styler,
+                style: geo_json_a0f49971fce184f9cfa1256380a008e8_styler,
             ...{
 }
         });
 
-        function geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_add (data) {
-            geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5
+        function geo_json_a0f49971fce184f9cfa1256380a008e8_add (data) {
+            geo_json_a0f49971fce184f9cfa1256380a008e8
                 .addData(data);
         }
-            geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5_add({"bbox": [22.21, 42.98, 22.74, 43.9], "features": [{"bbox": [22.555, 43.105, 22.59, 43.14], "geometry": {"coordinates": [[[22.555, 43.105], [22.59, 43.105], [22.59, 43.14], [22.555, 43.14], [22.555, 43.105]]], "type": "Polygon"}, "id": "0", "properties": {"datum_detekcije": "2024-07-13", "datum_pocetka": "2024-07-10", "id": 1, "indeks_dnbr": 0.412, "povrsina_ha": 44.1, "pozar_id": 1, "wkt": "POLYGON((22.555 43.105,22.59 43.105,22.59 43.14,22.555 43.14,22.555 43.105))"}, "type": "Feature"}, {"bbox": [22.36, 43.06, 22.38, 43.08], "geometry": {"coordinates": [[[22.36, 43.06], [22.38, 43.06], [22.38, 43.08], [22.36, 43.08], [22.36, 43.06]]], "type": "Polygon"}, "id": "1", "properties": {"datum_detekcije": "2024-07-23", "datum_pocetka": "2024-07-22", "id": 2, "indeks_dnbr": 0.355, "povrsina_ha": 3.0, "pozar_id": 2, "wkt": "POLYGON((22.36 43.06,22.38 43.06,22.38 43.08,22.36 43.08,22.36 43.06))"}, "type": "Feature"}, {"bbox": [22.71, 42.98, 22.74, 43.0], "geometry": {"coordinates": [[[22.71, 42.98], [22.74, 42.98], [22.74, 43.0], [22.71, 43.0], [22.71, 42.98]]], "type": "Polygon"}, "id": "2", "properties": {"datum_detekcije": "2024-08-06", "datum_pocetka": "2024-08-02", "id": 3, "indeks_dnbr": 0.48, "povrsina_ha": 21.9, "pozar_id": 3, "wkt": "POLYGON((22.71 42.98,22.74 42.98,22.74 43,22.71 43,22.71 42.98))"}, "type": "Feature"}, {"bbox": [22.21, 43.51, 22.26, 43.56], "geometry": {"coordinates": [[[22.21, 43.51], [22.26, 43.51], [22.26, 43.56], [22.21, 43.56], [22.21, 43.51]]], "type": "Polygon"}, "id": "3", "properties": {"datum_detekcije": "2024-08-07", "datum_pocetka": "2024-08-03", "id": 4, "indeks_dnbr": 0.52, "povrsina_ha": 58.7, "pozar_id": 4, "wkt": "POLYGON((22.21 43.51,22.26 43.51,22.26 43.56,22.21 43.56,22.21 43.51))"}, "type": "Feature"}, {"bbox": [22.21, 43.86, 22.25, 43.9], "geometry": {"coordinates": [[[22.21, 43.86], [22.25, 43.86], [22.25, 43.9], [22.21, 43.9], [22.21, 43.86]]], "type": "Polygon"}, "id": "4", "properties": {"datum_detekcije": "2024-08-16", "datum_pocetka": "2024-08-15", "id": 5, "indeks_dnbr": 0.33, "povrsina_ha": 5.2, "pozar_id": 5, "wkt": "POLYGON((22.21 43.86,22.25 43.86,22.25 43.9,22.21 43.9,22.21 43.86))"}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_a0f49971fce184f9cfa1256380a008e8_add({"bbox": [22.21, 42.98, 22.74, 43.9], "features": [{"bbox": [22.555, 43.105, 22.59, 43.14], "geometry": {"coordinates": [[[22.555, 43.105], [22.59, 43.105], [22.59, 43.14], [22.555, 43.14], [22.555, 43.105]]], "type": "Polygon"}, "id": "0", "properties": {"datum_detekcije": "2024-07-13", "datum_pocetka": "2024-07-10", "id": 1, "indeks_dnbr": 0.412, "povrsina_ha": 44.1, "pozar_id": 1, "wkt": "POLYGON((22.555 43.105,22.59 43.105,22.59 43.14,22.555 43.14,22.555 43.105))"}, "type": "Feature"}, {"bbox": [22.36, 43.06, 22.38, 43.08], "geometry": {"coordinates": [[[22.36, 43.06], [22.38, 43.06], [22.38, 43.08], [22.36, 43.08], [22.36, 43.06]]], "type": "Polygon"}, "id": "1", "properties": {"datum_detekcije": "2024-07-23", "datum_pocetka": "2024-07-22", "id": 2, "indeks_dnbr": 0.355, "povrsina_ha": 3.0, "pozar_id": 2, "wkt": "POLYGON((22.36 43.06,22.38 43.06,22.38 43.08,22.36 43.08,22.36 43.06))"}, "type": "Feature"}, {"bbox": [22.71, 42.98, 22.74, 43.0], "geometry": {"coordinates": [[[22.71, 42.98], [22.74, 42.98], [22.74, 43.0], [22.71, 43.0], [22.71, 42.98]]], "type": "Polygon"}, "id": "2", "properties": {"datum_detekcije": "2024-08-06", "datum_pocetka": "2024-08-02", "id": 3, "indeks_dnbr": 0.48, "povrsina_ha": 21.9, "pozar_id": 3, "wkt": "POLYGON((22.71 42.98,22.74 42.98,22.74 43,22.71 43,22.71 42.98))"}, "type": "Feature"}, {"bbox": [22.21, 43.51, 22.26, 43.56], "geometry": {"coordinates": [[[22.21, 43.51], [22.26, 43.51], [22.26, 43.56], [22.21, 43.56], [22.21, 43.51]]], "type": "Polygon"}, "id": "3", "properties": {"datum_detekcije": "2024-08-07", "datum_pocetka": "2024-08-03", "id": 4, "indeks_dnbr": 0.52, "povrsina_ha": 58.7, "pozar_id": 4, "wkt": "POLYGON((22.21 43.51,22.26 43.51,22.26 43.56,22.21 43.56,22.21 43.51))"}, "type": "Feature"}, {"bbox": [22.21, 43.86, 22.25, 43.9], "geometry": {"coordinates": [[[22.21, 43.86], [22.25, 43.86], [22.25, 43.9], [22.21, 43.9], [22.21, 43.86]]], "type": "Polygon"}, "id": "4", "properties": {"datum_detekcije": "2024-08-16", "datum_pocetka": "2024-08-15", "id": 5, "indeks_dnbr": 0.33, "povrsina_ha": 5.2, "pozar_id": 5, "wkt": "POLYGON((22.21 43.86,22.25 43.86,22.25 43.9,22.21 43.9,22.21 43.86))"}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5.addTo(map_fe12089dd061880d65af44069ec43009);
+            geo_json_a0f49971fce184f9cfa1256380a008e8.addTo(map_cf6046cc10b9d2e95b42a6eb81c33400);
         
     
-        function geo_json_b414a24a76840b6914f28cab2ef85030_styler(feature) {
+        function geo_json_4da2766bbc6a1d84bba230492a96d1d5_styler(feature) {
             switch(feature.id) {
                 default:
                     return {"color": "darkorange", "fillColor": "orange", "fillOpacity": 0.7, "weight": 2};
             }
         }
 
-        function geo_json_b414a24a76840b6914f28cab2ef85030_onEachFeature(feature, layer) {
+        function geo_json_4da2766bbc6a1d84bba230492a96d1d5_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_b414a24a76840b6914f28cab2ef85030 = L.geoJson(null, {
-                onEachFeature: geo_json_b414a24a76840b6914f28cab2ef85030_onEachFeature,
+        var geo_json_4da2766bbc6a1d84bba230492a96d1d5 = L.geoJson(null, {
+                onEachFeature: geo_json_4da2766bbc6a1d84bba230492a96d1d5_onEachFeature,
             
-                style: geo_json_b414a24a76840b6914f28cab2ef85030_styler,
+                style: geo_json_4da2766bbc6a1d84bba230492a96d1d5_styler,
             ...{
 }
         });
 
-        function geo_json_b414a24a76840b6914f28cab2ef85030_add (data) {
-            geo_json_b414a24a76840b6914f28cab2ef85030
+        function geo_json_4da2766bbc6a1d84bba230492a96d1d5_add (data) {
+            geo_json_4da2766bbc6a1d84bba230492a96d1d5
                 .addData(data);
         }
-            geo_json_b414a24a76840b6914f28cab2ef85030_add({"bbox": [22.555, 43.105, 22.59, 43.14], "features": [{"bbox": [22.555, 43.105, 22.59, 43.14], "geometry": {"coordinates": [[[22.555, 43.14], [22.59, 43.14], [22.59, 43.105], [22.555, 43.105], [22.555, 43.14]]], "type": "Polygon"}, "id": "0", "properties": {"datum_detekcije": "2024-07-13", "datum_pocetka": "2024-07-10", "id": 1, "indeks_dnbr": 0.412, "povrsina_ha": 44.1, "pozar_id": 1, "wkt": "POLYGON((22.555 43.105,22.59 43.105,22.59 43.14,22.555 43.14,22.555 43.105))"}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_4da2766bbc6a1d84bba230492a96d1d5_add({"bbox": [22.555, 43.105, 22.59, 43.14], "features": [{"bbox": [22.555, 43.105, 22.59, 43.14], "geometry": {"coordinates": [[[22.555, 43.14], [22.59, 43.14], [22.59, 43.105], [22.555, 43.105], [22.555, 43.14]]], "type": "Polygon"}, "id": "0", "properties": {"datum_detekcije": "2024-07-13", "datum_pocetka": "2024-07-10", "id": 1, "indeks_dnbr": 0.412, "povrsina_ha": 44.1, "pozar_id": 1, "wkt": "POLYGON((22.555 43.105,22.59 43.105,22.59 43.14,22.555 43.14,22.555 43.105))"}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            geo_json_b414a24a76840b6914f28cab2ef85030.addTo(map_fe12089dd061880d65af44069ec43009);
+            geo_json_4da2766bbc6a1d84bba230492a96d1d5.addTo(map_cf6046cc10b9d2e95b42a6eb81c33400);
         
     
-            var layer_control_7d2be501c3949f1178495032e8178a37_layers = {
+            var layer_control_644a14d18deee1a22a6a4e6a6906c4dd_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_bfe578bc5f4fc9f1f407e0539e084034,
+                    "openstreetmap" : tile_layer_f850f87c444d8975844941873b85e8fb,
                 },
                 overlays :  {
-                    "Op\u0161tine" : geo_json_803583209fd43877b8116491da639c6c,
-                    "Opo\u017earena podru\u010dja (original)" : geo_json_517fc9117c0cbd7f84d4c05a0fb3f9a5,
-                    "Opo\u017earena podru\u010dja (clip - Pirot)" : geo_json_b414a24a76840b6914f28cab2ef85030,
+                    "Op\u0161tine" : geo_json_d75371dd508934977f6cc75aec51a10f,
+                    "Opo\u017earena podru\u010dja (original)" : geo_json_a0f49971fce184f9cfa1256380a008e8,
+                    "Opo\u017earena podru\u010dja (clip - Pirot)" : geo_json_4da2766bbc6a1d84bba230492a96d1d5,
                 },
             };
-            let layer_control_7d2be501c3949f1178495032e8178a37 = L.control.layers(
-                layer_control_7d2be501c3949f1178495032e8178a37_layers.base_layers,
-                layer_control_7d2be501c3949f1178495032e8178a37_layers.overlays,
+            let layer_control_644a14d18deee1a22a6a4e6a6906c4dd = L.control.layers(
+                layer_control_644a14d18deee1a22a6a4e6a6906c4dd_layers.base_layers,
+                layer_control_644a14d18deee1a22a6a4e6a6906c4dd_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_fe12089dd061880d65af44069ec43009);
+            ).addTo(map_cf6046cc10b9d2e95b42a6eb81c33400);
 
         
 </script>
