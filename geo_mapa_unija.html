@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9ebf737f54394ee1cb03a5e197f11f5a {
+                #map_61b2e2e442bb91b868adae39783a8a84 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,14 +54,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_9ebf737f54394ee1cb03a5e197f11f5a" ></div>
+            <div class="folium-map" id="map_61b2e2e442bb91b868adae39783a8a84" ></div>
         
 </body>
 <script>
     
     
-            var map_9ebf737f54394ee1cb03a5e197f11f5a = L.map(
-                "map_9ebf737f54394ee1cb03a5e197f11f5a",
+            var map_61b2e2e442bb91b868adae39783a8a84 = L.map(
+                "map_61b2e2e442bb91b868adae39783a8a84",
                 {
                     center: [43.2, 22.5],
                     crs: L.CRS.EPSG3857,
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_4732a960064e9dabb976ff03ece91861 = L.tileLayer(
+            var tile_layer_4d25bd46cd081d2cbb70938f0484d1eb = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -95,10 +95,10 @@
             );
         
     
-            tile_layer_4732a960064e9dabb976ff03ece91861.addTo(map_9ebf737f54394ee1cb03a5e197f11f5a);
+            tile_layer_4d25bd46cd081d2cbb70938f0484d1eb.addTo(map_61b2e2e442bb91b868adae39783a8a84);
         
     
-            var tile_layer_2832446fe856dc28f57af110f3d96d11 = L.tileLayer(
+            var tile_layer_a1508daf22238d995db576ae069406a3 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
                 {
   "minZoom": 0,
@@ -115,58 +115,58 @@
             );
         
     
-            tile_layer_2832446fe856dc28f57af110f3d96d11.addTo(map_9ebf737f54394ee1cb03a5e197f11f5a);
+            tile_layer_a1508daf22238d995db576ae069406a3.addTo(map_61b2e2e442bb91b868adae39783a8a84);
         
     
-        function geo_json_f88758f8812e497c52c07e7c5961b40e_styler(feature) {
+        function geo_json_0381ccb50f9c3c2997e60676e1b26149_styler(feature) {
             switch(feature.id) {
                 default:
                     return {"color": "#441956", "fillColor": "#b272cc", "fillOpacity": 0.4, "weight": 3};
             }
         }
 
-        function geo_json_f88758f8812e497c52c07e7c5961b40e_onEachFeature(feature, layer) {
+        function geo_json_0381ccb50f9c3c2997e60676e1b26149_onEachFeature(feature, layer) {
 
             layer.on({
             });
         };
-        var geo_json_f88758f8812e497c52c07e7c5961b40e = L.geoJson(null, {
-                onEachFeature: geo_json_f88758f8812e497c52c07e7c5961b40e_onEachFeature,
+        var geo_json_0381ccb50f9c3c2997e60676e1b26149 = L.geoJson(null, {
+                onEachFeature: geo_json_0381ccb50f9c3c2997e60676e1b26149_onEachFeature,
             
-                style: geo_json_f88758f8812e497c52c07e7c5961b40e_styler,
+                style: geo_json_0381ccb50f9c3c2997e60676e1b26149_styler,
             ...{
 }
         });
 
-        function geo_json_f88758f8812e497c52c07e7c5961b40e_add (data) {
-            geo_json_f88758f8812e497c52c07e7c5961b40e
+        function geo_json_0381ccb50f9c3c2997e60676e1b26149_add (data) {
+            geo_json_0381ccb50f9c3c2997e60676e1b26149
                 .addData(data);
         }
-            geo_json_f88758f8812e497c52c07e7c5961b40e_add({"bbox": [22.16, 42.97, 22.84, 43.96], "features": [{"bbox": [22.16, 42.97, 22.84, 43.96], "geometry": {"coordinates": [[[[22.84, 43.07], [22.84, 42.97], [22.69, 42.97], [22.69, 43.07], [22.84, 43.07]]], [[[22.48, 43.06], [22.33, 43.06], [22.33, 43.16], [22.48, 43.16], [22.48, 43.06]]], [[[22.68, 43.13], [22.63, 43.13], [22.63, 43.18], [22.68, 43.18], [22.68, 43.13]]], [[[22.6, 43.21], [22.6, 43.13], [22.51, 43.13], [22.51, 43.21], [22.6, 43.21]]], [[[22.36, 43.46], [22.16, 43.46], [22.16, 43.6], [22.36, 43.6], [22.36, 43.46]]], [[[22.35, 43.83], [22.16, 43.83], [22.16, 43.96], [22.35, 43.96], [22.35, 43.83]]]], "type": "MultiPolygon"}, "id": "0", "properties": {"naziv": "Sva opo\u017earena podru\u010dja - unija"}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_0381ccb50f9c3c2997e60676e1b26149_add({"bbox": [22.16, 42.97, 22.84, 43.96], "features": [{"bbox": [22.16, 42.97, 22.84, 43.96], "geometry": {"coordinates": [[[[22.84, 43.07], [22.84, 42.97], [22.69, 42.97], [22.69, 43.07], [22.84, 43.07]]], [[[22.48, 43.06], [22.33, 43.06], [22.33, 43.16], [22.48, 43.16], [22.48, 43.06]]], [[[22.68, 43.13], [22.63, 43.13], [22.63, 43.18], [22.68, 43.18], [22.68, 43.13]]], [[[22.6, 43.21], [22.6, 43.13], [22.51, 43.13], [22.51, 43.21], [22.6, 43.21]]], [[[22.36, 43.46], [22.16, 43.46], [22.16, 43.6], [22.36, 43.6], [22.36, 43.46]]], [[[22.35, 43.83], [22.16, 43.83], [22.16, 43.96], [22.35, 43.96], [22.35, 43.83]]]], "type": "MultiPolygon"}, "id": "0", "properties": {"naziv": "Sva opo\u017earena podru\u010dja - unija"}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            geo_json_f88758f8812e497c52c07e7c5961b40e.addTo(map_9ebf737f54394ee1cb03a5e197f11f5a);
+            geo_json_0381ccb50f9c3c2997e60676e1b26149.addTo(map_61b2e2e442bb91b868adae39783a8a84);
         
     
-            var layer_control_8c8750e4ba3276c5cc1d41db6c0d6bcb_layers = {
+            var layer_control_90c868aa4de7e2d9ac4b6f2584adb0eb_layers = {
                 base_layers : {
-                    "Satelitska podloga (Esri)" : tile_layer_4732a960064e9dabb976ff03ece91861,
+                    "Satelitska podloga (Esri)" : tile_layer_4d25bd46cd081d2cbb70938f0484d1eb,
                 },
                 overlays :  {
-                    "Nazivi mesta" : tile_layer_2832446fe856dc28f57af110f3d96d11,
-                    "Unija opo\u017earenih" : geo_json_f88758f8812e497c52c07e7c5961b40e,
+                    "Nazivi mesta" : tile_layer_a1508daf22238d995db576ae069406a3,
+                    "Unija opo\u017earenih" : geo_json_0381ccb50f9c3c2997e60676e1b26149,
                 },
             };
-            let layer_control_8c8750e4ba3276c5cc1d41db6c0d6bcb = L.control.layers(
-                layer_control_8c8750e4ba3276c5cc1d41db6c0d6bcb_layers.base_layers,
-                layer_control_8c8750e4ba3276c5cc1d41db6c0d6bcb_layers.overlays,
+            let layer_control_90c868aa4de7e2d9ac4b6f2584adb0eb = L.control.layers(
+                layer_control_90c868aa4de7e2d9ac4b6f2584adb0eb_layers.base_layers,
+                layer_control_90c868aa4de7e2d9ac4b6f2584adb0eb_layers.overlays,
                 {
   "position": "topright",
   "collapsed": true,
   "autoZIndex": true,
 }
-            ).addTo(map_9ebf737f54394ee1cb03a5e197f11f5a);
+            ).addTo(map_61b2e2e442bb91b868adae39783a8a84);
 
         
 </script>
