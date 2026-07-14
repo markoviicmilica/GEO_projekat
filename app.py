@@ -107,9 +107,9 @@ def load_opozarena():
     gdf = gpd.GeoDataFrame(df, geometry='geometry', crs='EPSG:4326')
     return gdf
 
-st.title("🔥 Monitoring sumskih pozara")
+st.title("Monitoring sumskih pozara")
 
-if st.button("🔄 Osvezi podatke"):
+if st.button("Osvezi podatke"):
     st.cache_data.clear()
     st.rerun()
 
@@ -131,14 +131,12 @@ with tab1:
     df_detekcije = load_detekcije()
     gdf_opstine  = load_opstine()
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Ukupno požara", len(df_pozari))
-    with col2:
         st.metric("ML detekcije", len(df_detekcije))
-    with col3:
+    with col2:
         st.metric("Opštine", len(gdf_opstine))
-    with col4:
+    with col3:
         ukupna = df_pozari['povrsina_zahvacena_ha'].sum() if len(df_pozari) > 0 else 0
         st.metric("Ukupna površina (ha)", f"{ukupna:.1f}")
 
